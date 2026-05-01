@@ -7,7 +7,7 @@ const fortunes =[
 ];
 
 const button = document.getElementById("A");
-const result = document.getElementById("A");
+const result = document.getElementById("M");
 
 button.addEventListener("click",function() {
     const randomNumber = Math.floor(Math.random() * fortunes.length);
